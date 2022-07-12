@@ -116,5 +116,5 @@ function lazy_commit() {
   files=${@:1:$length}
   git add $files
   git commit -m "$message"
-  git push origin main
+  git push origin master
   }
